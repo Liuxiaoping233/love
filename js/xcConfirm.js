@@ -83,7 +83,12 @@
 		var $cancel = $("<a>").addClass("sgBtn").addClass("cancel").text("取消");//取消按钮
 		var $input = $("<input>").addClass("inputBox");//输入框
 		var $clsBtn = $("<a>").addClass("clsBtn");//关闭按钮
-		
+		var $know = $("<a>").addClass("sgBtn").addClass("ok").text("知道"); //
+		var $noKnow = $("<a>").addClass("sgBtn").addClass("cancel").text("不知道");//取消按钮
+		var $yes = $("<a>").addClass("sgBtn").addClass("ok").text("必须是的"); //
+		var $no = $("<a>").addClass("sgBtn").addClass("cancel").text("勉强算是");//取消按钮
+
+
 		//建立按钮映射关系
 		var btns = {
 			ok: $ok,

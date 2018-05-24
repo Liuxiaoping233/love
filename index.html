@@ -5,97 +5,238 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="js/jQuery.js" type="text/javascript"></script>
-    <script src="js/xcConfirm.js" type="text/javascript"></script>
+	<script src="js/xcConfirm.js" type="text/javascript"></script>
+	<script src="layer-v3.1.1/layer/layer.js"></script>
     <link rel="stylesheet" href="css/xcConfirm.css" type="text/css">
 
-    <title>点开我，你会发现好玩的东西</title>
+    <title>陈二傻专属网站</title>
     <script type="text/javascript">
-        $(function(){
-                
-            
+        $(function(){   												
+			layer.confirm('你好呀',{
+				btn:['确定']
+				},function(){
+					layer.close(layer.index);
+					layer.prompt({
+						title:'哈哈，我是刘晓平，你是谁哈',
+						formType: 2
+						},function(pass){
+							if(pass == "陈梦园" || pass == "二傻"){
+								layer.close(layer.index);
+								layer.confirm('这么巧，我就是来找你的！',{
+									btn:['确定']
+									},function(){
+										layer.close(layer.index);
+										layer.confirm('你知不知道今天是什么日子',{
+											btn:['知道','不知道']
+											},function(){
+												layer.close(layer.index);
+												layer.confirm('哟哟切克闹，哈哈，今天是一个美丽漂亮可爱大方的宝宝生日',{
+													btn:['确定']		
+													},function(){
+														layer.close(layer.index);
+														layer.confirm('所以，准备给你一个特殊的礼物，嘿嘿',{
+															btn:['确定']
+															},function(){
+																layer.close(layer.index);
+																layer.confirm('首先问你个问题，你觉得我是不是世界上最帅最有魅力的男人，摸着你的良心回答！',{
+																btn:['宇宙最帅','银河系最帅','地球最帅']
+																	},function(){
+																		layer.close(layer.index);
+																		layer.confirm('哇哈哈哈哈，果然漂亮的人眼光都很好，不错不错',{
+																			btn:['确定']
+																			},function(){
+																				layer.close(layer.index);
+																				layer.confirm('鉴于你这么看得起我，我就把自己当礼物送给你啦，哈哈哈',{
+																					btn:['确定']
+																					},function(){
+																						layer.close(layer.index);
+																						layer.confirm('拒绝退货，拒绝砍价，谢谢',{
+																							btn:['确定']
+																							},function(){
+																								layer.close(layer.index);
+																								layer.confirm('别在心里和嘴上说我不要脸，不准翻白眼！',{
+																									btn:['确定']
+																									},function(){
+																										layer.confirm('反正这脸也没什么用，嘿嘿',{
+																											btn:['确定']
+																											},function(){
+																												layer.close(layer.index);
+																												layer.confirm('好了，搞了这么多花里胡哨的，还是做点正事吧',{
+																													btn:['确定']
+																													},function(){
+																														layer.close(layer.index);
+																														layer.confirm('嗯。。。。想了半天发现正事没意思，还是搞花里胡哨的东西吧，哈哈哈',{
+																															btn:['确定']
+																															},function(){
+																																layer.close(layer.index);
+																																layer.confirm('我有时候会觉得你很过分哎',{
+																																	btn:['确定']
+																																	},function(){
+																																		layer.close();
+																																		layer.confirm('为什么你要介么漂亮美丽，活波可爱，暖心体贴,你介个样子，别的女生还怎么活？真是过分！',{
+																																			btn:['确定']
+																																			},function(){
+																																				layer.close();
+																																				layer.confirm('哎哎，算了，毕竟长得好看也不是你的错',{
+																																						btn:['确定']
+																																					},function(){
+																																						layer.close(layer.index);
+																																						layer.confirm('前面一直想搞这个东西来着，因为各种原因没下手',{
+																																								btn:['确定']
+																																							},function(){
+																																								layer.close(layer.index);
+																																								layer.confirm('现在趁着你生日的机会搞这么个花里胡哨，没有营养的东西，你别太嫌弃',{
+																																									btn:['确定']
+																																									},function(){
+																																										layer.close(layer.index);
+																																										layer.confirm('其实刚开始认识你的时候就想着要做个网站，搞个小程序什么的，前面怕你不喜欢，也就没弄',{
+																																												btn:['确定']
+																																											},function(){
+																																												layer.close(layer.index);
+																																												layer.confirm('后面你快生日的时候想着要给个特别的礼物给你，其实我在过节选礼物这方面挺懒的，因为觉得麻烦，我平时自己过生日也不讲究',{
+																																														btn:['确定']
+																																													},function(){
+																																														layer.close(layer.index);
+																																														layer.confirm('这个东西不贵，但我觉得还挺好玩的，主要应该会印象深刻一点吧，物质上的东西可能用完一段时间就淡忘了',{
+																																																btn:['确定']
+																																															},function(){
+																																																layer.close(layer.index);
+																																																layer.confirm('但这个域名我可是买了一年，后期可以一直续费啊，啊哈哈哈，以后有什么想法了就在这上面搞，哈哈哈',{
+																																																	btn:['确定']
+																																																	},function(){
+																																																		layer.close(layer.index);
+																																																		layer.confirm('做这个只有一个目的，希望你看到这个东西的时候是开心的',{
+																																																				btn:['确定']
+																																																			},function(){
+																																																				layer.close();
+																																																				layer.confirm('小小东西，不要嫌弃哦',{
+																																																						btn:['确定']
+																																																					},function(){
+																																																						layer.close(layer.index);
+																																																						layer.confirm('一定要开心哈',{
+																																																								btn:['确定']
+																																																							},function(){
+																																																								layer.close(layer.index);
+																																																								layer.confirm('我爱你',{
+																																																										btn:['确定']
+																																																									},function(){
+																																																										layer.close(layer.index);
+																																																										layer.confirm('狗哥奉上',{
+																																																												btn:['确定']
+																																																											},function(){
+																																																												layer.close(layer.index);
+																																																												window.location.href = 'love.html';
+																																																											}
+																																																										)
+																																																									}
+																																																								)
+																																																							}
+																																																						)
+																																																					}
+																																																				)
+																																																			}
+																																																		)
+																																																	}
+																																																)
+																																															}
+																																														)
+																																													}
+																																												)
+																																											}
+																																										)
+																																									}
+																																								)
+																																							}
+																																						)
+																																					}
+																																				)
+																																			}
+																																		)
+																																	}
+																																)
+																															}
+																														)
+																													}
+																												)
+																											}
+																										)
+																									}
+																								)
+																							}
+																						)																						
+																					}
+																				)
+																			}
+																		)
+																	},function(){
+																		layer.confirm('你选这个是对我颜值的侮辱。。',{
+																			btn:['确定']
+																			},function(){
+																				window.close();
+																			}
+																		)
+																	},function(){
+																		layer.confirm('你选这个是对我颜值的侮辱。。',{
+																			btn:['确定']
+																			},function(){
+																				window.close();
+																			}
+																		)
+																	}
+																)
+															}
+														)
+													}
+												)																				
+											},function(){
+												layer.confirm('哼，你不选知道我就不让你继续下去',{
+													btn:['确定']
+													},function(){
+														window.close();
+													}
+												)
+											}
+										)
+									}
+								)					
+							}else{
+								layer.confirm('好像不认识，再见来不及握手',{
+									btn:['确定']
+									},function(){
+										window.close();
+									}
+								)					
+							}
+						}				
+					)
+				}
+			)
 
-				$("#btn1").click(function(){
-					var txt=  "提示文字，提示文字，提示文字，提示文字，提示文字，提示文字";
-					window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.info);
-				});
-				
-				$("#btn2").click(function(){
-					var txt=  "提示文字，提示文字，提示文字，提示文字，提示文字，提示文字";
-				    window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.confirm);
-                    
-				});
-				
-				$("#btn3").click(function(){
-					var txt=  "提示文字，提示文字，提示文字，提示文字，提示文字，提示文字";
-					window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.warning);
-				});
-				
-				$("#btn4").click(function(){
-					var txt=  "提示文字，提示文字，提示文字，提示文字，提示文字，提示文字";
-					window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.error);
-				});
-				
-				$("#btn5").click(function(){
-					var txt=  "提示文字，提示文字，提示文字，提示文字，提示文字，提示文字";
-					window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.success);
-				});
-				
-				$("#btn6").click(function(){
-					var txt=  "请输入";
-					window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.input,{
+			
+
+			/*
+			window.wxc.xcConfirm("你好呀");
+			var txt = "哈哈，我是刘晓平，你是谁哈";
+			window.wxc.xcConfirm(txt, window.wxc.xcConfirm.typeEnum.input,{
 						onOk:function(v){
-							console.log(v);
+							if(v == "陈梦园" || v == "二傻"){
+								window.wxc.xcConfirm("这么巧，我就是来找你的，哈哈哈", window.wxc.xcConfirm.typeEnum.info);
+								
+								window.wxc.xcConfirm("你知道今天是什么日子吗？",window.wxc.xcConfirm.typeEnum)
+							}else if(v == ""){
+								window.wxc.xcConfirm("你为啥要点取消！！！哼", window.wxc.xcConfirm.typeEnum.info);
+								window.close();
+							}else{
+								window.wxc.xcConfirm("不认识，再见来不及握手", window.wxc.xcConfirm.typeEnum.info);
+								window.close();
+							}
 						}
-					});
-				});
-				
-				$("#btn7").click(function(){
-					var txt=  "自定义呀";
-					var option = {
-						title: "自定义",
-						btn: parseInt("0011",2),
-						onOk: function(){
-							console.log("确认啦");
-						}
-					}
-					window.wxc.xcConfirm(txt, "custom", option);
-				});
-				
-				$("#btn8").click(function(){
-					var txt=  "默认";
-					window.wxc.xcConfirm(txt);
-                });
-                
-
-			});
-        $(function(){   
-            window.wxc.xcConfirm(txt);
-            
-
-            if(confirm("你好呀")){
-                if(prompt("哈哈，我是刘晓平，你是谁哈")=="陈梦园"){
-                    if(confirm("这么巧，我就是来找你的")){
-                        
-                    }
-                }else{
-                    alert("不认识，再见来不及握手");
-                }
-            }else{
-                alert("你为啥要点取消！！");
-            }
-        })
+					});    */
+			      
+        });
     </script>
 </head>
 <body>
-    <div class="" style="height: 768px;">
-        <div class="sgBtn" id="btn1">弹窗1(信息)</div>
-        <div class="sgBtn" id="btn2">弹窗2(提示)</div>
-        <div class="sgBtn" id="btn3">弹窗3(警告)</div>
-        <div class="sgBtn" id="btn4">弹窗4(错误)</div>
-        <div class="sgBtn" id="btn5">弹窗5(成功)</div>
-        <div class="sgBtn" id="btn6">弹窗6(输入框)</div>
-        <div class="sgBtn" id="btn7">弹窗7(自定义)</div>
-        <div class="sgBtn" id="btn8">弹窗8(默认)</div>
-    </div>
+    
 </body>
 </html>
